@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
+import LoaderPDF from "./LoaderPDF";
 import "./pdfviewer.css";
 import ControlPanel from "./ControlPanel";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
@@ -41,6 +42,7 @@ export const PDFReader = ({ url, disablePrint }) => {
 
   return (
     <div className="pdfviewer-container">
+      <LoaderPDF isLoading={isLoading} />
       <section id="pdf-section" className="controlpanel_wrapper">
         <ControlPanel
           scale={scale}
