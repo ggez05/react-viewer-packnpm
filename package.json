@@ -1,6 +1,6 @@
 {
   "name": "react-viewer-simple",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "View pdf's, excel files(to be added), and videos(to be added) with UI using an URL ",
   "main": "index.js",
   "scripts": {
@@ -35,8 +35,21 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.1",
+    "react-scripts": "^5.0.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "homepage": "https://github.com/ggez05/react-viewer-packnpm#readme"
 }

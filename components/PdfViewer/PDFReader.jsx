@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { Document, Page, pdfjs } from "react-pdf";
-import LoaderPDF from "./LoaderPDF";
 import "./pdfviewer.css";
-import ControlPanel from "./ControlPanel";
+import { LoaderPDF } from "./LoaderPDF";
+import { ControlPanel } from "./ControlPanel";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 export const PDFReader = ({ url, disablePrint }) => {

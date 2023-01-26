@@ -6,7 +6,7 @@ import KeyboardDoubleArrowRightIcon from "@mui/icons-material/KeyboardDoubleArro
 import ZoomInIcon from "@mui/icons-material/ZoomIn";
 import ZoomOutIcon from "@mui/icons-material/ZoomOut";
 
-const ControlPanel = (props) => {
+export const ControlPanel = (props) => {
   const { file, pageNumber, numPages, setPageNumber, scale, setScale } = props;
 
   const isFirstPage = pageNumber === 1;
@@ -94,5 +94,3 @@ const ControlPanel = (props) => {
     </div>
   );
 };
-
-export default ControlPanel;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const LoaderPDF = ({ isLoading }) => {
+export const LoaderPDF = ({ isLoading }) => {
   if (!isLoading) return null;
   return (
     <div id="loader" className="loadingbarpdf">
@@ -8,5 +8,3 @@ const LoaderPDF = ({ isLoading }) => {
     </div>
   );
 };
-
-export default LoaderPDF;
