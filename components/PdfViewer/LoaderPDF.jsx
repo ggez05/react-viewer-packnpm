@@ -9,4 +9,4 @@ const LoaderPDF = ({ isLoading }) => {
   );
 };
 
-export default Loader;
+export default LoaderPDF;
