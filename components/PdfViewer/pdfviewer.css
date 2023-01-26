@@ -1,0 +1,89 @@
+.pdfviewer-container{
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.controlpanel_container{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.controlpanel_wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.marginleftrightpdf{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.pdfzoomcontrolpanel{
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+.clickable {
+    cursor: pointer;
+}
+.react-pdf__Page__annotations{
+    display: none;
+}
+.controlpanel_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.loadingbarpdf{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.control-panel {
+    width: fit-content;
+    font-size: 16px;
+    color: black;
+    background-color: white;
+    padding-bottom: 5px;
+    border-top: 2px solid #282c34;
+    border-bottom: 5px solid #282c34;
+    border-radius: 5px;
+}
+
+.pageinput_pdfreaderinput{
+    width: 30px;
+    text-align: center;
+}
+
+
+.clickable {
+    cursor: pointer;
+}
+
+.disabled {
+    cursor: not-allowed;
+    color: lightgray;
+}
+
+
+@media screen and (max-width:650px) {
+    .marginleftrightpdf{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .control-panel{
+        width: 100%;
+    }
+}

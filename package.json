@@ -1,0 +1,36 @@
+{
+  "name": "react-viewer-simple",
+  "version": "1.0.0",
+  "description": "View pdf's, excel files(to be added), and videos(to be added) with UI using an URL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggez05/react-viewer-packnpm.git"
+  },
+  "keywords": [
+    "react",
+    "pdf-viewer",
+    "pdfjs",
+    "react-pdf",
+    "pdf-ui",
+    "pdf-ui",
+    "UI"
+  ],
+  "author": "Garvit Bhatia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggez05/react-viewer-packnpm/issues"
+  },
+  "dependencies": {
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.10.16",
+    "react-pdf": "^6.2.1",
+    "react": "^18.2.0", 
+    "pdfjs-dist": "^3.1.81",
+    "pspdfkit": "^2022.5.5"
+  },
+  "homepage": "https://github.com/ggez05/react-viewer-packnpm#readme"
+}
