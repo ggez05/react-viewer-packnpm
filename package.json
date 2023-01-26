@@ -1,10 +1,10 @@
 {
   "name": "react-viewer-simple",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "View pdf's, excel files(to be added), and videos(to be added) with UI using an URL ",
-  "main": "index.js",
+  "main": "./build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -27,9 +27,12 @@
   "dependencies": {
     "@babel/core": "^7.20.12",
     "@babel/preset-react": "^7.18.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.11.0",
     "@mui/material": "^5.10.16",
     "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
     "pdfjs-dist": "^3.1.81",
     "pspdfkit": "^2022.5.5",
     "react": "^18.2.0",
